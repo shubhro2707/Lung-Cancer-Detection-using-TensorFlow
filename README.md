@@ -1,4 +1,5 @@
 Lung Cancer Detection Using CNN (TensorFlow)
+
 Project Overview
 This project focuses on using Convolutional Neural Networks (CNN) for detecting lung cancer from histopathological images. The goal is to classify lung tissue samples into normal and cancerous categories. The project uses TensorFlow and Keras to implement the model and achieves an F1 score of over 90% across all classes.
 
@@ -31,6 +32,3 @@ Training Accuracy: ~85%
 Validation Accuracy: ~82%
 F1 Score: Above 90% for all classes
 The model shows strong performance in detecting cancerous lung tissue and classifying it into appropriate categories.
-
-Conclusion
-This project demonstrates the power of Convolutional Neural Networks in medical image classification. The model performs well in classifying lung tissue as either normal or cancerous, which could be a useful tool for early-stage lung cancer detection.

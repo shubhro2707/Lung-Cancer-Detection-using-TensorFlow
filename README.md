@@ -32,3 +32,5 @@ Training Accuracy: ~85%
 Validation Accuracy: ~82%
 F1 Score: Above 90% for all classes
 The model shows strong performance in detecting cancerous lung tissue and classifying it into appropriate categories.
+
+![image](https://github.com/user-attachments/assets/8e187083-d95e-46e3-81b1-ebfcfa3549b0)

@@ -1,44 +1,46 @@
 # **Lung Cancer Detection Using CNN (TensorFlow)**  
 
 ## **Project Overview**  
-This project utilizes **Convolutional Neural Networks (CNN)** to detect lung cancer from histopathological images. The goal is to classify lung tissue samples into **normal** and **cancerous** categories. Using **TensorFlow & Keras**, the model achieves an **F1 score of over 90%** across all classes.  
+In this project, I developed a **Convolutional Neural Network (CNN)** to detect **lung cancer** from histopathological images. The objective was to classify lung tissue samples into **normal** and **cancerous** categories. Using **TensorFlow & Keras**, I trained the model, achieving an **F1 score of over 90%** across all classes.  
 
 ---  
 
 ## **Dataset**  
-**Source:** Kaggle  
-**Categories:**  
-- **Normal** lung tissue  
-- **Lung Adenocarcinoma**  
-- **Lung Squamous Cell Carcinoma**  
+- **Source:** Kaggle  
+- **Categories:**  
+  - **Normal** lung tissue  
+  - **Lung Adenocarcinoma**  
+  - **Lung Squamous Cell Carcinoma**  
 
-**Dataset Size:**  
-- **Total Images:** 5,000 (including augmented samples)  
+- **Dataset Size:**  
+  - **Total Images:** 5,000 (including augmented samples)  
 
 [🔗 Dataset Link](https://drive.google.com/file/d/1-md2LF__FOMctSNxa6af0lBLkJ6EsUUW/view?usp=sharing)  
 
 ---  
 
 ## **Model Architecture**  
-- **Convolutional Layers** – Extract features from images  
-- **Max Pooling Layers** – Downsample feature maps  
-- **Fully Connected Layers** – Classification with dropout & batch normalization  
-- **Output Layer** – Softmax for multi-class classification  
+I designed a CNN architecture consisting of:  
+- **Convolutional Layers** – Extracting key features from images  
+- **Max Pooling Layers** – Downsampling feature maps to reduce dimensions  
+- **Fully Connected Layers** – Dense layers for classification, with dropout & batch normalization for regularization  
+- **Output Layer** – A **softmax** layer for multi-class classification  
 
 ---  
 
 ## **Training & Results**  
-**Training Parameters:**  
+
+### **Training Parameters:**  
 - **Epochs:** 10  
 - **Batch Size:** 64  
 - **Validation Split:** 20%  
 
-**Performance:**  
+### **Performance:**  
 - **Training Accuracy:** ~85%  
 - **Validation Accuracy:** ~82%  
 - **F1 Score:** **Above 90%** for all classes  
 
-The model demonstrates strong performance in detecting cancerous lung tissue and classifying it into appropriate categories.  
+The model performed well in **classifying lung cancer types** and exhibited **strong generalization** on validation data, making it a reliable approach for lung cancer detection.
 
 Dataset: https://drive.google.com/file/d/1-md2LF__FOMctSNxa6af0lBLkJ6EsUUW/view?usp=sharing
 
